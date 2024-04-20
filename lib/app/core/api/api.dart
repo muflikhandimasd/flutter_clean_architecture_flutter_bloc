@@ -11,7 +11,7 @@ class Api {
         _storage = storage{
     const timeOut = Duration(minutes: 1);
     _dio.options = BaseOptions(
-      baseUrl: 'http://192.168.1.64:9221/api/v1',
+      baseUrl: 'http://<YOUR_IP>:9221/api/v1',
       sendTimeout: timeOut,
       connectTimeout: timeOut,
       receiveTimeout: timeOut
