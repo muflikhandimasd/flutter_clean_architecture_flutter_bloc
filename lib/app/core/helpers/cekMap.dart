@@ -1,0 +1,1 @@
+dynamic cekMap(Map json, String key)=> json.containsKey(key)? json[key]:null;
